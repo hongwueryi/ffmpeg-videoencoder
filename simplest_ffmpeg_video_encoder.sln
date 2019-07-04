@@ -1,24 +1,42 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simplest_ffmpeg_video_encoder", "simplest_ffmpeg_video_encoder\simplest_ffmpeg_video_encoder.vcxproj", "{73A64B3B-DF52-4BDF-9573-18D5AD27D589}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simplest_ffmpeg_video_encoder_pure", "simplest_ffmpeg_video_encoder_pure\simplest_ffmpeg_video_encoder_pure.vcxproj", "{E1818A87-2D93-461E-908C-97A9D91C9AB1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mp4TOmp4", "mp4TOmp4\mp4TOmp4.vcxproj", "{265960D2-2595-44AA-81F3-FB32025808FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
 		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{73A64B3B-DF52-4BDF-9573-18D5AD27D589}.Debug|Win32.ActiveCfg = Debug|Win32
 		{73A64B3B-DF52-4BDF-9573-18D5AD27D589}.Debug|Win32.Build.0 = Debug|Win32
+		{73A64B3B-DF52-4BDF-9573-18D5AD27D589}.Debug|x64.ActiveCfg = Debug|Win32
 		{73A64B3B-DF52-4BDF-9573-18D5AD27D589}.Release|Win32.ActiveCfg = Release|Win32
 		{73A64B3B-DF52-4BDF-9573-18D5AD27D589}.Release|Win32.Build.0 = Release|Win32
+		{73A64B3B-DF52-4BDF-9573-18D5AD27D589}.Release|x64.ActiveCfg = Release|Win32
 		{E1818A87-2D93-461E-908C-97A9D91C9AB1}.Debug|Win32.ActiveCfg = Debug|Win32
 		{E1818A87-2D93-461E-908C-97A9D91C9AB1}.Debug|Win32.Build.0 = Debug|Win32
+		{E1818A87-2D93-461E-908C-97A9D91C9AB1}.Debug|x64.ActiveCfg = Debug|Win32
 		{E1818A87-2D93-461E-908C-97A9D91C9AB1}.Release|Win32.ActiveCfg = Release|Win32
 		{E1818A87-2D93-461E-908C-97A9D91C9AB1}.Release|Win32.Build.0 = Release|Win32
+		{E1818A87-2D93-461E-908C-97A9D91C9AB1}.Release|x64.ActiveCfg = Release|Win32
+		{265960D2-2595-44AA-81F3-FB32025808FF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{265960D2-2595-44AA-81F3-FB32025808FF}.Debug|Win32.Build.0 = Debug|Win32
+		{265960D2-2595-44AA-81F3-FB32025808FF}.Debug|x64.ActiveCfg = Debug|x64
+		{265960D2-2595-44AA-81F3-FB32025808FF}.Debug|x64.Build.0 = Debug|x64
+		{265960D2-2595-44AA-81F3-FB32025808FF}.Release|Win32.ActiveCfg = Release|Win32
+		{265960D2-2595-44AA-81F3-FB32025808FF}.Release|Win32.Build.0 = Release|Win32
+		{265960D2-2595-44AA-81F3-FB32025808FF}.Release|x64.ActiveCfg = Release|x64
+		{265960D2-2595-44AA-81F3-FB32025808FF}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
